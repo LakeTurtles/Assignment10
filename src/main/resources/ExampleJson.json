@@ -1,0 +1,242 @@
+{
+  "week": {
+    "monday": {
+      "meals": [
+        {
+          "id": 641781,
+          "imageType": "jpg",
+          "title": "Earl Grey Raisin Muffin",
+          "readyInMinutes": 45,
+          "servings": 10,
+          "sourceUrl": "https://spoonacular.com/earl-grey-raisin-muffin-641781"
+        },
+        {
+          "id": 715383,
+          "imageType": "jpg",
+          "title": "Slow Cooker Chicken and Dumplings",
+          "readyInMinutes": 11,
+          "servings": 6,
+          "sourceUrl": "https://spoonacular.com/slow-cooker-chicken-and-dumplings-715383"
+        },
+        {
+          "id": 634404,
+          "imageType": "jpg",
+          "title": "Basic Risotto",
+          "readyInMinutes": 45,
+          "servings": 2,
+          "sourceUrl": "https://spoonacular.com/basic-risotto-634404"
+        }
+      ],
+      "nutrients": {
+        "calories": 1947.98,
+        "protein": 53.19,
+        "fat": 64.35,
+        "carbohydrates": 286.34
+      }
+    },
+    "tuesday": {
+      "meals": [
+        {
+          "id": 982374,
+          "imageType": "jpg",
+          "title": "Perfect Buttermilk Pancakes",
+          "readyInMinutes": 15,
+          "servings": 6,
+          "sourceUrl": "https://spoonacular.com/perfect-buttermilk-pancakes-982374"
+        },
+        {
+          "id": 652417,
+          "imageType": "jpg",
+          "title": "Moroccan chickpea and lentil stew",
+          "readyInMinutes": 30,
+          "servings": 3,
+          "sourceUrl": "https://spoonacular.com/moroccan-chickpea-and-lentil-stew-652417"
+        },
+        {
+          "id": 641687,
+          "imageType": "jpg",
+          "title": "Dry Mee Siam",
+          "readyInMinutes": 45,
+          "servings": 3,
+          "sourceUrl": "https://spoonacular.com/dry-mee-siam-641687"
+        }
+      ],
+      "nutrients": {
+        "calories": 1849.8,
+        "protein": 52.81,
+        "fat": 57.82,
+        "carbohydrates": 282.81
+      }
+    },
+    "wednesday": {
+      "meals": [
+        {
+          "id": 982374,
+          "imageType": "jpg",
+          "title": "Perfect Buttermilk Pancakes",
+          "readyInMinutes": 15,
+          "servings": 6,
+          "sourceUrl": "https://spoonacular.com/perfect-buttermilk-pancakes-982374"
+        },
+        {
+          "id": 642585,
+          "imageType": "jpg",
+          "title": "Farfalle with fresh tomatoes, basil and mozzarella",
+          "readyInMinutes": 15,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/farfalle-with-fresh-tomatoes-basil-and-mozzarella-642585"
+        },
+        {
+          "id": 634404,
+          "imageType": "jpg",
+          "title": "Basic Risotto",
+          "readyInMinutes": 45,
+          "servings": 2,
+          "sourceUrl": "https://spoonacular.com/basic-risotto-634404"
+        }
+      ],
+      "nutrients": {
+        "calories": 1998.25,
+        "protein": 50.39,
+        "fat": 62.19,
+        "carbohydrates": 306.59
+      }
+    },
+    "thursday": {
+      "meals": [
+        {
+          "id": 638917,
+          "imageType": "jpg",
+          "title": "Chocolate Chip Coconut Muffins",
+          "readyInMinutes": 45,
+          "servings": 12,
+          "sourceUrl": "https://spoonacular.com/chocolate-chip-coconut-muffins-638917"
+        },
+        {
+          "id": 642777,
+          "imageType": "jpg",
+          "title": "Fig and Goat Cheese Pizza With Pesto",
+          "readyInMinutes": 15,
+          "servings": 6,
+          "sourceUrl": "https://spoonacular.com/fig-and-goat-cheese-pizza-with-pesto-642777"
+        },
+        {
+          "id": 634404,
+          "imageType": "jpg",
+          "title": "Basic Risotto",
+          "readyInMinutes": 45,
+          "servings": 2,
+          "sourceUrl": "https://spoonacular.com/basic-risotto-634404"
+        }
+      ],
+      "nutrients": {
+        "calories": 1918.21,
+        "protein": 46.77,
+        "fat": 66.16,
+        "carbohydrates": 278.3
+      }
+    },
+    "friday": {
+      "meals": [
+        {
+          "id": 638917,
+          "imageType": "jpg",
+          "title": "Chocolate Chip Coconut Muffins",
+          "readyInMinutes": 45,
+          "servings": 12,
+          "sourceUrl": "https://spoonacular.com/chocolate-chip-coconut-muffins-638917"
+        },
+        {
+          "id": 157219,
+          "imageType": "jpg",
+          "title": "Lemon Pepper Garlic Tilapia with Creamy Spinach Pappardelle",
+          "readyInMinutes": 25,
+          "servings": 2,
+          "sourceUrl": "https://spoonacular.com/lemon-pepper-garlic-tilapia-with-creamy-spinach-pappardelle-157219"
+        },
+        {
+          "id": 636714,
+          "imageType": "jpg",
+          "title": "Cajun Cuisine: Vegan Jambalaya",
+          "readyInMinutes": 45,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/cajun-cuisine-vegan-jambalaya-636714"
+        }
+      ],
+      "nutrients": {
+        "calories": 1997.54,
+        "protein": 55.27,
+        "fat": 66.88,
+        "carbohydrates": 300.32
+      }
+    },
+    "saturday": {
+      "meals": [
+        {
+          "id": 655786,
+          "imageType": "jpg",
+          "title": "Persimmons Pumpkin Orange Smoothie With Chia Seeds",
+          "readyInMinutes": 45,
+          "servings": 3,
+          "sourceUrl": "https://spoonacular.com/persimmons-pumpkin-orange-smoothie-with-chia-seeds-655786"
+        },
+        {
+          "id": 157459,
+          "imageType": "jpg",
+          "title": "Spicy Coconut Chicken Curry",
+          "readyInMinutes": 20,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/spicy-coconut-chicken-curry-157459"
+        },
+        {
+          "id": 640982,
+          "imageType": "jpg",
+          "title": "Cuban Black Beans & Rice",
+          "readyInMinutes": 45,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/cuban-black-beans-rice-640982"
+        }
+      ],
+      "nutrients": {
+        "calories": 1984.74,
+        "protein": 52.19,
+        "fat": 71.92,
+        "carbohydrates": 292.83
+      }
+    },
+    "sunday": {
+      "meals": [
+        {
+          "id": 639637,
+          "imageType": "jpg",
+          "title": "Classic scones",
+          "readyInMinutes": 45,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/classic-scones-639637"
+        },
+        {
+          "id": 642777,
+          "imageType": "jpg",
+          "title": "Fig and Goat Cheese Pizza With Pesto",
+          "readyInMinutes": 15,
+          "servings": 6,
+          "sourceUrl": "https://spoonacular.com/fig-and-goat-cheese-pizza-with-pesto-642777"
+        },
+        {
+          "id": 641687,
+          "imageType": "jpg",
+          "title": "Dry Mee Siam",
+          "readyInMinutes": 45,
+          "servings": 3,
+          "sourceUrl": "https://spoonacular.com/dry-mee-siam-641687"
+        }
+      ],
+      "nutrients": {
+        "calories": 1911.76,
+        "protein": 48.22,
+        "fat": 64.44,
+        "carbohydrates": 280.12
+      }
+    }
+  }
+}
