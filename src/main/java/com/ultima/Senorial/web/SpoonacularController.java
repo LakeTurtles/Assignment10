@@ -2,8 +2,8 @@ package com.ultima.Senorial.web;
 import com.ultima.Senorial.Repository.MealRepository;
 import com.ultima.Senorial.domain.Nutrients;
 import com.ultima.Senorial.dto.*;
-import com.ultima.Senorial.service.JsonParser;
-import com.ultima.Senorial.service.SpoonacularResponse;
+import com.ultima.Senorial.service.HttpJsonParser;
+import com.ultima.Senorial.service.ResponseEntityParser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -20,9 +20,9 @@ import java.util.List;
 public class SpoonacularController {
 
 	@Autowired
-	SpoonacularResponse spoonacularResponse;
+	ResponseEntityParser spoonacularResponse;
 	@Autowired
-	JsonParser jsonParser;
+	HttpJsonParser jsonParser;
 	@Autowired
 	MealRepository mealRepository;
 
@@ -45,6 +45,7 @@ public class SpoonacularController {
 	@GetMapping("mealplanner/tuesday")
 	public DayResponse getTuesday() throws IOException, InterruptedException {
 		jsonParser.callApiExample2();
+
 		return MealRepository.getWeekResponse().get(0).getWeek().getTuesday();
 	}
 
@@ -94,6 +95,17 @@ public class SpoonacularController {
 	public ResponseEntity<DayResponse> getDayMeals(String numCalories, String diet, String exclusions) {
 		return (ResponseEntity<DayResponse>) spoonacularResponse
 				.getspoonacularResponse(numCalories, diet, exclusions, "day", DayResponse.class);
+	}
+
+
+	@SuppressWarnings("unchecked")
+	@GetMapping("test-page")
+	public List<WeekResponse> getObjectResponse(String numCalories, String diet, String exclusions) {
+
+		spoonacularResponse.getspoonacularResponse("", "", "", "week", WeekResponse.class);
+
+		return MealRepository.getWeekResponse();
+
 	}
 
 

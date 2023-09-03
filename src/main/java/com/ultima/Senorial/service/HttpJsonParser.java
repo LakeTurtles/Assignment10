@@ -12,7 +12,7 @@ import java.net.URL;
 import java.util.List;
 
 @Service
-public class JsonParser {
+public class HttpJsonParser {
 
 
     @Value("${url.api1}")

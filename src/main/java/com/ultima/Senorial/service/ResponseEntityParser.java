@@ -1,5 +1,8 @@
 package com.ultima.Senorial.service;
+import com.ultima.Senorial.Repository.MealRepository;
+import com.ultima.Senorial.dto.WeekResponse;
 import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
@@ -10,10 +13,13 @@ import org.springframework.web.util.UriComponentsBuilder;
 import java.net.URI;
 
 @Service
-public class SpoonacularResponse {
+public class ResponseEntityParser {
 
     @Value("${uri.endpoint1}")
     String apiUrlEndpoint;
+
+    @Autowired
+    MealRepository mealRepository;
 
 
     @Test
@@ -38,6 +44,22 @@ public class SpoonacularResponse {
 
         RestTemplate rt = new RestTemplate();
         ResponseEntity<?> responseEntity = rt.getForEntity(uri, responseClass);
+
+
+
+
+
+        if (responseClass == WeekResponse.class){
+            WeekResponse responseObject =  rt.getForObject(uri, WeekResponse.class);
+
+                MealRepository.getWeekResponse().add(MealRepository.getWeekResponse().size(), responseObject);
+
+
+        }
+
+        System.out.println(responseClass);
+
+
         System.out.println(responseEntity);
         return responseEntity;
     }
